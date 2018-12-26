@@ -1,0 +1,57 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+li{
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #F0F0F0;
+}
+nav{
+    padding: 40px 0;
+}
+.navitem{
+    width: 20%;
+    a{
+        display: block;
+        text-align: center;
+        font-family: 'Roboto',sans-serif;
+        font-size: 20px;
+        padding: 0 0 10px;
+        cursor: pointer;
+        &:hover{
+            color: #f89b24 !important;
+            box-shadow: inset 0px -3px 0px 0px #f89b24;
+        }
+    }
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.navitem__active{
+    box-shadow: inset 0px -3px 0px 0px #f89b24;
+}
+
+
+@import 'header';
+@import 'footer';
+@import 'mainpage';
+@import 'controllers';
+@import 'led';
