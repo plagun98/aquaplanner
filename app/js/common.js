@@ -2,6 +2,7 @@ $('#headerload').load("header.html");
 $('#footerload').load("footer.html");
 $('#contentload').load("mainpage.html");
 window.onload = ()=>{
+
     $('#main').click(()=>{
         $('#main').addClass("navitem__active");
         $('#controllers').removeClass("navitem__active");
@@ -26,4 +27,5 @@ window.onload = ()=>{
     $('#for__beginners').click(()=>{
         $('#begin__info').toggleClass('begin__info');
     });
+
 }

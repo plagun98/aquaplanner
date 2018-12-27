@@ -1,0 +1,86 @@
+.controllers{
+    
+    &__all{
+        background: #ffffff;
+        padding-bottom: 100px;
+        margin-bottom: 50px;
+    }
+    &__heading{
+        padding: 50px 0;
+        text-align: center;
+        font-size: 30px;
+        line-height: 34px;
+        font-weight: 700;
+        font-family: 'Roboto',sans-serif;
+        text-transform: uppercase;
+    }
+    &__types{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        a{
+            display: block;
+        }
+    }
+    &__item{
+        min-height: 210px;
+        width: 320px;
+
+        margin: 0 20px;
+        cursor: pointer;
+        p{
+            padding: 30px 0;
+            text-align: center;
+            font-family: 'Roboto',sans-serif;
+            font-size: 20px;
+        }
+        &:hover{
+            animation: scale 0.5s linear;
+            animation-fill-mode: forwards;
+        }
+    }
+    &__subheading{
+        padding-top: 100px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+}
+.shadow1{
+    border-radius: 5px;
+    box-shadow: 8px 11px 5px 1px #dbdbdb;
+}
+.controller__prof__img{
+    background: url("../img/controllerprof.jpg") no-repeat;
+    background-size: cover;
+    min-height: 210px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px 0px #838383;
+}
+.controller__mini__img{
+    background: url("../img/controllermini.jpg") no-repeat;
+    background-size: cover;
+    min-height: 210px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px 0px #838383;
+}
+.some__text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 0 70px;
+    text-indent: 35px;
+}
+
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
