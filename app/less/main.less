@@ -28,24 +28,6 @@ body{
     max-width: 1140px;
     margin: 0 auto;
 }
-nav{
-    padding: 40px 0;
-}
-.navitem{
-    width: 20%;
-    a{
-        display: block;
-        text-align: center;
-        font-family: 'Roboto',sans-serif;
-        font-size: 20px;
-        padding: 0 0 10px;
-        cursor: pointer;
-        &:hover{
-            color: #f89b24 !important;
-            box-shadow: inset 0px -3px 0px 0px #f89b24;
-        }
-    }
-}
 .flex{
     display: flex;
     justify-content: space-around;
@@ -53,7 +35,71 @@ nav{
 .navitem__active{
     box-shadow: inset 0px -3px 0px 0px #f89b24;
 }
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans');
 
+#intro{
+    background: url('../img/backgroundtop.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    padding: 30px 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#aquatitle{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: Intro;
+    padding-left: 50px;
+    color: #fff;
+}
+#ico{
+    max-height: 32px;
+    padding-left: 120px;
+}
+.menu{
+    position: absolute;
+    right: 120px;
+    &__line{
+        display: flex;
+        li{
+            padding: 8px 30px;
+            span{
+                font-size: 16px;
+                font-family: 'Montserrat', sans-serif;
+                color: #fff;
+            }
+            &:hover{
+                span{
+                    color: #10c9c3;
+                }
+            }
+        }
+    }
+}
+.short__info{
+    padding: 120px;
+    h1{
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.8rem;
+        font-weight: 900;
+        letter-spacing: 0.4px;
+        text-align: left;
+        color: #fff;
+        text-shadow: 1px 1px 2px black;
+    }
+    h2{
+        font-family: 'NunitoSans', sans-serif;
+        font-size: 1.8rem;
+        line-height: 1.56;
+        letter-spacing: 0.1px;
+        text-align: left;
+        color: #fff;
+        text-shadow: 1px 1px 2px black;
+    }
+}
 
 @import 'header';
 @import 'footer';

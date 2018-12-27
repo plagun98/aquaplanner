@@ -29,3 +29,28 @@
   -webkit-background-size: cover;
           background-size: cover;
 }
+.controller__light {
+  background: url('../img/light.jpg');
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+.controller__net {
+  background: url('../img/net.jpg');
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+.controller__reef {
+  background: url('../img/reef.jpg') no-repeat center center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+.controller__timerwifi {
+  background: url('../img/timerwifi.jpg') no-repeat center center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+.controller__16ch {
+  background: url('../img/16ch.jpg');
+  -webkit-background-size: cover;
+          background-size: cover;
+}
