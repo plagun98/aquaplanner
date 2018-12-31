@@ -10,8 +10,10 @@ window.onload = ()=>{
             speed: 600,
             slidesPerRow: 3,
             slidesToShow: 3,
-            slidesToScroll: 3
+            slidesToScroll: 3,
+            infinite: false
         });
+        $('.fancybox').fancybox();
       });
     $('#main').click(()=>{
         $('#main').addClass("navitem__active");

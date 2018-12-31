@@ -32,3 +32,15 @@ footer .footer__content {
 footer .services p {
   line-height: 1.75;
 }
+@media screen and (max-width: 500px) {
+  footer {
+    padding-left: 10px;
+    margin-left: 0;
+  }
+  footer h1 {
+    font-size: 20px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+}

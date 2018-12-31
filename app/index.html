@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/fancybox/jquery.fancybox.min.css"/>
 </head>
 <body>
     <section id="intro">
         <nav>
-            <div class="logo">
-                <img id="ico" src="../img/logo.png" alt="">
+            <div class="flex">
+                <div class="logo">
+                    <img id="ico" src="../img/logo.png" alt="">
+                </div>
+                <h1 id="aquatitle">Aquaplanner</h1>
             </div>
-            <h1 id="aquatitle">Aquaplanner</h1>
+
             <div class="menu">
                 <ul class="menu__line" id="menu__line">
                     <li><a href="#"><span>Контроллеры</span></a></li>
@@ -38,6 +42,30 @@
             <h1>Про нас</h1>
             <p>Divide have don't man wherein air fourth. Own itself make have night won't make. A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, dominion she'd won't very all.
             </p>
+            <h1>Наши услуги</h1>
+            <div class="our__services">
+                <div class="our__service">
+                    <i class="fab fa-angrycreative"></i>
+                    <div class="our__service__text">
+                        <h2>Услуга</h2>
+                        <h3>Описаниеописание описание опсание опсаниеописание</h3>
+                    </div>
+                </div>
+                <div class="our__service">
+                    <i class="fab fa-angrycreative"></i>
+                    <div class="our__service__text">
+                        <h2>Услуга</h2>
+                        <h3>Описаниеописание описание опсание опсаниеописание</h3>
+                    </div>
+                </div>
+                <div class="our__service">
+                    <i class="fab fa-angrycreative"></i>
+                    <div class="our__service__text">
+                        <h2>Услуга</h2>
+                        <h3>Описаниеописание описание опсание опсаниеописание</h3>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -45,15 +73,51 @@
         <div class="container">
             <div class="slider__wrapper">
                 <div class="slider">
-                    <div class="slide"></div>
-                    <div class="slide"></div>
-                    <div class="slide"></div>
-                    <div class="slide"></div>
-                    <div class="slide"></div>
-                    <div class="slide"></div>
-                    <div class="slide"></div>
-                    <div class="slide"></div>
-                    <div class="slide"></div>
+                    <div class="slide"><a class="fancybox" data-fancybox="group" href="../img/aqua2.jpg"><img src="../img/aqua2.jpg"/></a>
+                        <div class="slide__desc">
+                            <p>Бла лала ллала</p>
+                        </div>
+                    </div>
+                    <div class="slide"><a class="fancybox" data-fancybox="group" href="../img/16ch.jpg"><img src="../img/16ch.jpg"/></a>
+                        <div class="slide__desc">
+                            <p>Блалалааллала</p>
+                        </div>
+                    </div>
+                    <div class="slide"><a class="fancybox" data-fancybox="group" href="../img/net.jpg"><img src="../img/net.jpg"/></a>
+                        <div class="slide__desc">
+                            <p>Блалалааллала</p>
+                        </div>
+                    </div>
+                    <div class="slide"><a class="fancybox" data-fancybox="group" href="../img/aqua2.jpg"><img src="../img/aqua2.jpg"/></a>
+                        <div class="slide__desc">
+                            <p>Блалалааллала</p>
+                        </div>
+                    </div>
+                    <div class="slide"><a class="fancybox" data-fancybox="group" href="../img/16ch.jpg"><img src="../img/16ch.jpg"/></a>
+                        <div class="slide__desc">
+                            <p>Блалалааллала</p>
+                        </div>
+                    </div>
+                    <div class="slide"><a class="fancybox" data-fancybox="group" href="../img/net.jpg"><img src="../img/net.jpg"/></a>
+                        <div class="slide__desc">
+                            <p>Блалалааллала</p>
+                        </div>
+                    </div>
+                    <div class="slide"><a class="fancybox" data-fancybox="group" href="../img/aqua2.jpg"><img src="../img/aqua2.jpg"/></a>
+                        <div class="slide__desc">
+                            <p>Блалалааллала</p>
+                        </div>
+                    </div>
+                    <div class="slide"><a class="fancybox" data-fancybox="group" href="../img/16ch.jpg"><img src="../img/16ch.jpg"/></a>
+                        <div class="slide__desc">
+                            <p>Блалалааллала</p>
+                        </div>
+                    </div>
+                    <div class="slide"><a class="fancybox" data-fancybox="group" href="../img/net.jpg"><img src="../img/net.jpg"/></a>
+                        <div class="slide__desc">
+                            <p>Блалалааллала</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -62,7 +126,7 @@
     <section id="why__us">
         <div class="container mainpage">
             <h1 class="heading">Почему мы</h1>
-            <div class="flex">
+            <div class="flex" id="all__icons">
                 <div class="icons__item">
                     <div class="icon">
                         <div class="icon__wrapper"><i class="fas fa-medal"></i></div>
@@ -91,7 +155,7 @@
     </section>
 
     <section id="led__intro">
-        <div class="container flex">
+        <div class="container flex" id="led__container">
             <div class="led__intro__info">
                 <p>Изготовление<br>led светильника<br>aquaplanner<br>для вашего аквариума</p>
             </div>
@@ -119,42 +183,60 @@
 
         </div>
         <div class="right__side">
+            <img src="../img/3.jpg">
             <h1>специально разработанный профиль В52-2 в двух вариантах</h1>
             <ul>
-                <li>bullet 1</li>
-                <li>bullet 2</li>
-                <li>bullet 3</li>
+                <li>&bull; Легкий вес профиля <span>(1100грн./метр)</span></li>
+                <li>&bull; Рассеивает мощность до 75ВТ</li>
+                <li>&bull; Отвод телпа в пассивном режиме <span>(t&deg; профиля &le; 55&deg;)</span></li>
+                <li>&bull; Возможность встраивания контроллера в профиль</li>
+                <li>&bull; Универсальный паз <span>(применяются акриловые стекла толщиной 1-3мм)</span></li>
+                <li>&bull; Два цвета профиля <span>(silver/black)</span></li>
+                <li>&bull; Предусмотрены направляющие <span>(для светильников с выдвижными ножками)</span></li>
             </ul>
         </div>
     </section>
     <section id="holders">
-        <div class="container flex">
+        <div class="container flex" id="holders__container">
             <div class="holder__type">
-                <i class="fab fa-angrycreative"></i>
+                <img src="../img/1s.jpg" alt="">
                 <p>variant 1</p>
             </div>
             <div class="holder__type">
-                <i class="fab fa-angrycreative"></i>
+                <img src="../img/2s.jpg" alt="">
                 <p>variant 2</p>
             </div>
             <div class="holder__type">
-                <i class="fab fa-angrycreative"></i>
+                <img src="../img/3s.jpg" alt="">
                 <p>variant 3</p>
             </div>
         </div>
     </section>
     <section id="diods">
-        <h1>Собственные диоды aquaplanner</h1>
         <div class="flex">
-            <div class="diod__item"></div>
-            <div class="diod__item"></div>
+            <div class="diod__left">
+                <img src="../img/1.jpg">
+                <h1>Собственные диоды aquaplanner</h1>
+                <ul>
+                    <li>&bull; Легкий вес профиля <span>(1100грн./метр)</span></li>
+                    <li>&bull; Рассеивает мощность до 75ВТ</li>
+                    <li>&bull; Отвод телпа в пассивном режиме <span>(t&deg; профиля &le; 55&deg;)</span></li>
+                    <li>&bull; Возможность встраивания контроллера в профиль</li>
+                    <li>&bull; Универсальный паз <span>(применяются акриловые стекла толщиной 1-3мм)</span></li>
+                    <li>&bull; Два цвета профиля <span>(silver/black)</span></li>
+                    <li>&bull; Предусмотрены направляющие <span>(для светильников с выдвижными ножками)</span></li>
+                </ul>
+            </div>
+            <div class="diod__right"></div>
         </div>
     </section>
 
     <div id="footerload"></div>
 
     <script src="js/libs.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="libs/slick/slick.min.js"></script>
+    <script type="text/javascript" src="libs/fancybox/jquery.fancybox.min.js"></script>
     <script src="js/common.js"></script>
+    
 </body>
 </html>
