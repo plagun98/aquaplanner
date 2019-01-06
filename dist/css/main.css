@@ -503,6 +503,17 @@ nav {
   font-weight: 400;
   src: local('Nunito Sans Regular'), local('NunitoSans-Regular'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe0qMImSLYBIv1o4X1M8cce9I94.ttf) format('truetype');
 }
+header {
+  background: #2F3D48;
+}
+header h1 {
+  font-size: 56px;
+  font-family: Intro;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+}
 footer {
   display: -webkit-box;
   display: -webkit-flex;
@@ -531,7 +542,7 @@ footer p {
 footer .footer__content {
   margin-left: -20px;
   padding-left: 20px;
-  border-left: solid #f89b24 3px;
+  border-left: solid #10c9c3 3px;
   height: 108px;
 }
 footer .services p {

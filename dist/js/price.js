@@ -1,0 +1,25 @@
+$("#headerload").load('header.html');
+$("#footerload").load('footer.html');
+window.onload = ()=>{
+    $('#led').click(()=>{
+        $('#led').addClass("navitem__active");
+        $('#controllers').removeClass("navitem__active");
+        $('#materials').removeClass("navitem__active");
+        $('#priceload').innerHTML="";
+        $('#priceload').load("ledprice.html");
+    });
+    $('#controllers').click(()=>{
+        $('#controllers').addClass("navitem__active");
+        $('#materials').removeClass("navitem__active");
+        $('#led').removeClass("navitem__active");
+        $('#priceload').innerHTML="";
+        $('#priceload').load("controllersprice.html");
+    });
+    $('#materials').click(()=>{
+        $('#materials').addClass("navitem__active");
+        $('#controllers').removeClass("navitem__active");
+        $('#led').removeClass("navitem__active");
+        $('#priceload').innerHTML="";
+        $('#priceload').load("materialsprice.html");
+    });
+}
