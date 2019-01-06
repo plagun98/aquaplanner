@@ -1,10 +1,11 @@
-$('#headerload').load("header.html");
+//$('#headerload').load("header.html");
+$('#controllers__load').load("controllers.html");
 $('#footerload').load("footer.html");
-$('#contentload').load("mainpage.html");
+//$('#contentload').load("mainpage.html");
 window.onload = ()=>{
     $(document).ready(function(){
         $('.slider').slick({
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2000,
             dots: true,
             speed: 600,
@@ -14,6 +15,7 @@ window.onload = ()=>{
             infinite: false
         });
         $('.fancybox').fancybox();
+        $('.fancybox__holders').fancybox();
       });
     $('#main').click(()=>{
         $('#main').addClass("navitem__active");

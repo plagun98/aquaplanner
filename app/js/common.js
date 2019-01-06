@@ -1,6 +1,7 @@
-$('#headerload').load("header.html");
+//$('#headerload').load("header.html");
+$('#controllers__load').load("controllers.html");
 $('#footerload').load("footer.html");
-$('#contentload').load("mainpage.html");
+//$('#contentload').load("mainpage.html");
 window.onload = ()=>{
     $(document).ready(function(){
         $('.slider').slick({
