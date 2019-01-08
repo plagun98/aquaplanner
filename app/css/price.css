@@ -17,7 +17,7 @@
   background: #10c9c3;
 }
 .navitem__active a {
-  color: #000;
+  color: #fff;
 }
 .nav {
   display: -webkit-box;

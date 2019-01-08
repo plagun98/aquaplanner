@@ -15,7 +15,6 @@ window.onload = ()=>{
         });
         $('.fancybox').fancybox();
         $('.fancybox__holders').fancybox();
-      });
-
+    });
 
 }

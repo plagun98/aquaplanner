@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +23,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans';
   color: #222;
   background: #F0F0F0;
 }
@@ -87,7 +93,7 @@ nav {
 }
 .menu__line li span {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
 .menu__line li:hover span {
@@ -99,7 +105,7 @@ nav {
 }
 .short__info h1 {
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 3.8rem;
   font-weight: 900;
   letter-spacing: 0.4px;
@@ -131,7 +137,7 @@ nav {
   background: #ffffff;
 }
 #about__us h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 3rem;
   text-align: center;
   color: #191919;
@@ -210,7 +216,7 @@ nav {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
 }
 .slider {
@@ -255,7 +261,7 @@ nav {
   padding-bottom: 30px;
   line-height: 40px;
   font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   text-align: center;
   padding: 50px 0;
@@ -306,7 +312,7 @@ nav {
   padding: 80px 0;
 }
 .led__intro__info p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 38px;
   text-transform: uppercase;
 }
@@ -328,7 +334,7 @@ nav {
 }
 #about__led p {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 32px;
 }
 #special__profiles {
@@ -349,7 +355,7 @@ nav {
   background: #fff;
 }
 .right__side h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
   text-transform: uppercase;
   padding-left: 40px;
@@ -379,14 +385,14 @@ nav {
 }
 #holders p {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 32px;
 }
 #holders h1 {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
 }
 #holders__container {
@@ -411,7 +417,7 @@ nav {
   display: none;
 }
 .diod__left h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
   text-transform: uppercase;
   padding-bottom: 30px;
@@ -441,7 +447,7 @@ nav {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
 }
 #controller__particles p {
@@ -464,7 +470,7 @@ nav {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
 }
 .contact__item {
