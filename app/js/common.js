@@ -1,4 +1,5 @@
 $('#controllers__load').load("controllers.html");
+$('#headerload').load("header.html");
 $('#footerload').load("footer.html");
 window.onload = ()=>{
     $(document).ready(function(){

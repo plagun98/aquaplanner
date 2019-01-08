@@ -1,4 +1,5 @@
 $("#headerload").load('header.html');
+$("#priceload").load("ledprice.html");
 $("#footerload").load('footer.html');
 window.onload = ()=>{
     $('#led').click(()=>{

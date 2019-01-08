@@ -1,46 +1,40 @@
-footer {
+#contact__form {
+  background: #2F3D48;
+}
+#contact__form h1 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+.contact__item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background: #2F3D48;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
-  padding: 50px 0;
 }
-footer h1 {
-  font-size: 30px;
-  font-weight: 700;
-  text-align: left;
-  padding-bottom: 30px;
-  color: #ffffff;
+.contact__item i {
+  color: #fff;
+  font-size: 32px;
+  padding: 0 10px;
 }
-footer p {
-  color: #ffffff;
-  font-size: 20px;
+.contact__item h6 {
+  color: #fff;
+  font-size: 12px;
+  padding-bottom: 3px;
+}
+.contact__item p {
+  color: #fff;
+  font-size: 14px;
+  padding: 0;
+}
+.bg {
+  background: #2F3D48 !important;
+}
+.bg h1 {
+  border: none;
   margin: 0;
   padding: 0;
-  line-height: normal;
-}
-footer .footer__content {
-  margin-left: -20px;
-  padding-left: 20px;
-  border-left: solid #10c9c3 3px;
-  height: 108px;
-}
-footer .services p {
-  line-height: 1.75;
-}
-@media screen and (max-width: 500px) {
-  footer {
-    padding-left: 10px;
-    margin-left: 0;
-  }
-  footer h1 {
-    font-size: 20px;
-  }
-  footer p {
-    font-size: 15px;
-  }
 }

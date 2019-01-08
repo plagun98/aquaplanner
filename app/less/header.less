@@ -1,12 +1,74 @@
-header{
-    background: #2F3D48;
-    h1{
-        font-size: 56px;
-        font-family: Intro;
-        color: #ffffff;
-        margin: 0 auto;
-        padding: 40px 0;
-        text-align: center;
+*{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    li{
+        list-style: none;
     }
+    p{
+        margin: 0;
+    }
+    ul{
+        margin: 0;
+    }
+}
+.nav__contacts{
+    display: flex;
+    padding-left: 5%;
+    p{
+        color: #fff;
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+}
+#aquatitle{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: Intro;
+    padding-left: 50px !important;
+    color: #fff;
+    border: none !important;
+    margin: 0;
+    padding: 0;
+}
+#ico{
+    height: 32px;
+    width: 32px;
+    padding: 0;
+    padding-left: 120px !important;
+    display: block;
+    margin: 0;
+    
+}
+.menu{
+    position: absolute;
+    right: 120px;
+    &__line{
+        display: flex;
+        li{
+            padding: 8px 30px;
+            span{
+                font-size: 16px;
+                font-family: 'Montserrat', sans-serif;
+                color: #fff;
+            }
+            &:hover{
+                span{
+                    color: #10c9c3;
+                }
+            }
+        }
+    }
+}
+.flex{
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
 }
 
