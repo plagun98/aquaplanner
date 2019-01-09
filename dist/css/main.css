@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +23,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans';
   color: #222;
   background: #F0F0F0;
 }
@@ -36,7 +42,7 @@ body {
           box-shadow: inset 0px -3px 0px 0px #f89b24;
 }
 #intro {
-  background: url('../img/2.jpg') no-repeat;
+  background: url('../img/bgtop.jpg') no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   height: 100vh;
@@ -46,7 +52,7 @@ nav {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 30px 0;
+  padding: 10px 0;
   background-color: rgba(0, 0, 0, 0.3);
 }
 .nav__contacts {
@@ -87,7 +93,7 @@ nav {
 }
 .menu__line li span {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
 .menu__line li:hover span {
@@ -99,7 +105,7 @@ nav {
 }
 .short__info h1 {
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 3.8rem;
   font-weight: 900;
   letter-spacing: 0.4px;
@@ -112,7 +118,7 @@ nav {
   padding: 5px 25px;
 }
 .short__info h2 {
-  font-family: 'NunitoSans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 1.8rem;
   line-height: 1.56;
   letter-spacing: 0.1px;
@@ -131,26 +137,29 @@ nav {
   background: #ffffff;
 }
 #about__us h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 3rem;
   text-align: center;
   color: #191919;
   padding-bottom: 30px;
 }
 #about__us p {
-  font-family: 'NunitoSans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 1.6rem;
   font-weight: normal;
   line-height: 1.5;
   letter-spacing: 0.1px;
   text-align: center;
   color: #787878;
-  padding: 0 20%;
+  margin: 0 auto;
   padding-bottom: 40px;
 }
 #why__us {
   background: url('../img/backgroundtop.jpg') no-repeat center / cover;
   background-attachment: fixed;
+}
+.why__us__wrapper {
+  background: rgba(0, 0, 0, 0.5);
 }
 .why__us__buttons {
   display: -webkit-box;
@@ -163,12 +172,13 @@ nav {
           justify-content: center;
 }
 .wu__button {
-  background: #fff;
-  margin: 0 10px;
+  background: #eeeeee;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
 }
 .wu__button p {
   padding: 10px 30px;
-  font-size: 14px;
+  font-size: 20px;
   cursor: pointer;
 }
 .our__service {
@@ -206,7 +216,7 @@ nav {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans';
   font-size: 25px;
 }
 .slider {
@@ -234,7 +244,7 @@ nav {
   padding-bottom: 50px;
 }
 .mainpage #all__icons p {
-  font-family: 'NunitoSans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 1.6rem;
   font-weight: normal;
   line-height: 1.5;
@@ -251,7 +261,7 @@ nav {
   padding-bottom: 30px;
   line-height: 40px;
   font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   text-align: center;
   padding: 50px 0;
@@ -302,7 +312,7 @@ nav {
   padding: 80px 0;
 }
 .led__intro__info p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 38px;
   text-transform: uppercase;
 }
@@ -324,7 +334,7 @@ nav {
 }
 #about__led p {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 32px;
 }
 #special__profiles {
@@ -335,7 +345,7 @@ nav {
 }
 .left__side {
   width: 45%;
-  background: url('../img/3.jpg') no-repeat center center;
+  background: url('../img/sp_prof_right.jpg') no-repeat center center;
   -webkit-background-size: cover;
           background-size: cover;
 }
@@ -345,7 +355,7 @@ nav {
   background: #fff;
 }
 .right__side h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
   text-transform: uppercase;
   padding-left: 40px;
@@ -361,7 +371,7 @@ nav {
 .right__side ul li span {
   font-size: 18px;
   font-style: italic;
-  font-family: 'NunitoSans', sans-serif;
+  font-family: 'Open Sans';
 }
 .right__side img {
   display: none;
@@ -375,14 +385,14 @@ nav {
 }
 #holders p {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans';
   font-size: 32px;
 }
 #holders h1 {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans';
   font-size: 25px;
 }
 #holders__container {
@@ -401,12 +411,13 @@ nav {
 .diod__left {
   padding: 60px 40px;
   width: 100%;
+  background: #fff;
 }
 .diod__left img {
   display: none;
 }
 .diod__left h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans';
   font-size: 25px;
   text-transform: uppercase;
   padding-bottom: 30px;
@@ -418,11 +429,11 @@ nav {
 .diod__left ul li span {
   font-size: 18px;
   font-style: italic;
-  font-family: 'NunitoSans', sans-serif;
+  font-family: 'Open Sans';
 }
 .diod__right {
   width: 100%;
-  background: url('../img/1.jpg') no-repeat center center;
+  background: url('../img/diod.jpg') no-repeat center center;
   -webkit-background-size: cover;
           background-size: cover;
 }
@@ -436,8 +447,19 @@ nav {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans';
   font-size: 25px;
+}
+#controller__particles p {
+  font-family: 'Open Sans';
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #787878;
+  margin: 0 auto;
+  padding-bottom: 40px;
 }
 #contact__form {
   padding: 40px 0;
@@ -448,7 +470,7 @@ nav {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans';
   font-size: 25px;
 }
 .contact__item {
@@ -470,6 +492,30 @@ nav {
 .contact__item p {
   color: #fff;
   font-size: 14px;
+}
+.home__anchor {
+  display: none;
+  position: fixed;
+  height: 5rem;
+  width: 5rem;
+  -webkit-border-radius: 2.5rem;
+          border-radius: 2.5rem;
+  background-color: #10c9c3;
+  right: 3rem;
+  bottom: 5rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.home__anchor i {
+  color: #fff;
+  font-size: 4rem;
+  padding-left: 13px;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+.home__anchor i:hover {
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 @-webkit-keyframes scaleit {
   0% {
@@ -503,66 +549,89 @@ nav {
   font-weight: 400;
   src: local('Nunito Sans Regular'), local('NunitoSans-Regular'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe0qMImSLYBIv1o4X1M8cce9I94.ttf) format('truetype');
 }
-header {
-  background: #2F3D48;
+* {
+  margin: 0;
 }
-header h1 {
-  font-size: 56px;
-  font-family: Intro;
-  color: #ffffff;
-  margin: 0 auto;
-  padding: 40px 0;
-  text-align: center;
-}
-footer {
+nav {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background: #2F3D48;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
-  padding: 50px 0;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.3);
 }
-footer h1 {
-  font-size: 30px;
-  font-weight: 700;
-  text-align: left;
-  padding-bottom: 30px;
-  color: #ffffff;
+nav li {
+  list-style: none;
 }
-footer p {
-  color: #ffffff;
-  font-size: 20px;
+nav p {
+  margin: 0;
+}
+nav ul {
+  margin: 0;
+}
+.nav__contacts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 5%;
+}
+.nav__contacts p {
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 10px;
+}
+#aquatitle {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: Intro;
+  padding-left: 50px !important;
+  color: #fff;
+  border: none !important;
   margin: 0;
   padding: 0;
-  line-height: normal;
 }
-footer .footer__content {
-  margin-left: -20px;
-  padding-left: 20px;
-  border-left: solid #10c9c3 3px;
-  height: 108px;
+#ico {
+  height: 32px;
+  width: 32px;
+  padding: 0;
+  padding-left: 120px !important;
+  display: block;
+  margin: 0;
 }
-footer .services p {
-  line-height: 1.75;
+.menu {
+  position: absolute;
+  right: 120px;
 }
-@media screen and (max-width: 500px) {
-  footer {
-    padding-left: 10px;
-    margin-left: 0;
-  }
-  footer h1 {
-    font-size: 20px;
-  }
-  footer p {
-    font-size: 15px;
-  }
+.menu__line {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.menu__line li {
+  padding: 8px 30px;
+}
+.menu__line li span {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  color: #fff;
+}
+.menu__line li:hover span {
+  color: #10c9c3;
+}
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
 }
 .controllers__all {
   background: #ffffff;
-  padding-bottom: 100px;
   margin-bottom: 50px;
 }
 .controllers__heading {
@@ -571,7 +640,7 @@ footer .services p {
   font-size: 30px;
   line-height: 34px;
   font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans';
   text-transform: uppercase;
 }
 .controllers__types {
@@ -597,7 +666,7 @@ footer .services p {
 .controllers__item p {
   padding: 30px 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans';
   font-size: 20px;
 }
 .controllers__item:hover {
@@ -643,7 +712,7 @@ footer .services p {
           box-shadow: 0px 4px 0px 0px #838383;
 }
 .some__text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans';
   font-size: 18px;
   padding: 0 70px;
   text-indent: 35px;

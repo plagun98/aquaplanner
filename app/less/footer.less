@@ -41,6 +41,10 @@
 //         margin-left: 0;
 //     }
 // }
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 #contact__form{
     //padding: 40px 0;
     background: #2F3D48;
@@ -49,17 +53,13 @@
         text-align: center;
         padding-bottom: 40px;
         text-transform: uppercase;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Open Sans';
         font-size: 25px;
     }
 }
 .contact__item{
     display: flex;
-    i{
-        color: #fff;
-        font-size: 32px;
-        padding: 0 10px;
-    }
+
     h6{
         color: #fff;
         font-size: 12px;
@@ -69,6 +69,17 @@
         color: #fff;
         font-size: 14px;
         padding: 0;
+        font-family: 'Open Sans';
+    }
+    &__icon{
+        i{
+            color: #fff;
+            font-size: 32px;
+            padding: 0 10px;
+            width: 100%;
+            font-family: fontawesome !important;
+
+        }
     }
 }
 .bg{
@@ -79,3 +90,5 @@
         padding: 0;
     }
 }
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans');

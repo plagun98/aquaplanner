@@ -1,3 +1,5 @@
+$("#headerload").load('header.html');
+$("#footerload").load('footer.html');
 $(document).ready(function($){
 	if( $('.floating-labels').length > 0 ) floatLabels();
 

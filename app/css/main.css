@@ -118,7 +118,7 @@ nav {
   padding: 5px 25px;
 }
 .short__info h2 {
-  font-family: 'NunitoSans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 1.8rem;
   line-height: 1.56;
   letter-spacing: 0.1px;
@@ -144,7 +144,7 @@ nav {
   padding-bottom: 30px;
 }
 #about__us p {
-  font-family: 'NunitoSans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 1.6rem;
   font-weight: normal;
   line-height: 1.5;
@@ -216,7 +216,7 @@ nav {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 25px;
 }
 .slider {
@@ -244,7 +244,7 @@ nav {
   padding-bottom: 50px;
 }
 .mainpage #all__icons p {
-  font-family: 'NunitoSans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 1.6rem;
   font-weight: normal;
   line-height: 1.5;
@@ -371,7 +371,7 @@ nav {
 .right__side ul li span {
   font-size: 18px;
   font-style: italic;
-  font-family: 'NunitoSans', sans-serif;
+  font-family: 'Open Sans';
 }
 .right__side img {
   display: none;
@@ -385,14 +385,14 @@ nav {
 }
 #holders p {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 32px;
 }
 #holders h1 {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 25px;
 }
 #holders__container {
@@ -417,7 +417,7 @@ nav {
   display: none;
 }
 .diod__left h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 25px;
   text-transform: uppercase;
   padding-bottom: 30px;
@@ -429,7 +429,7 @@ nav {
 .diod__left ul li span {
   font-size: 18px;
   font-style: italic;
-  font-family: 'NunitoSans', sans-serif;
+  font-family: 'Open Sans';
 }
 .diod__right {
   width: 100%;
@@ -447,11 +447,11 @@ nav {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 25px;
 }
 #controller__particles p {
-  font-family: 'NunitoSans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 1.6rem;
   font-weight: normal;
   line-height: 1.5;
@@ -470,7 +470,7 @@ nav {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 25px;
 }
 .contact__item {
@@ -492,6 +492,30 @@ nav {
 .contact__item p {
   color: #fff;
   font-size: 14px;
+}
+.home__anchor {
+  display: none;
+  position: fixed;
+  height: 5rem;
+  width: 5rem;
+  -webkit-border-radius: 2.5rem;
+          border-radius: 2.5rem;
+  background-color: #10c9c3;
+  right: 3rem;
+  bottom: 5rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.home__anchor i {
+  color: #fff;
+  font-size: 4rem;
+  padding-left: 13px;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+.home__anchor i:hover {
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 @-webkit-keyframes scaleit {
   0% {
@@ -590,7 +614,7 @@ nav ul {
 }
 .menu__line li span {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans';
   color: #fff;
 }
 .menu__line li:hover span {
@@ -606,46 +630,6 @@ a {
   text-decoration: none;
   color: currentColor;
 }
-#contact__form {
-  background: #2F3D48;
-}
-#contact__form h1 {
-  color: #fff;
-  text-align: center;
-  padding-bottom: 40px;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-}
-.contact__item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-.contact__item i {
-  color: #fff;
-  font-size: 32px;
-  padding: 0 10px;
-}
-.contact__item h6 {
-  color: #fff;
-  font-size: 12px;
-  padding-bottom: 3px;
-}
-.contact__item p {
-  color: #fff;
-  font-size: 14px;
-  padding: 0;
-}
-.bg {
-  background: #2F3D48 !important;
-}
-.bg h1 {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
 .controllers__all {
   background: #ffffff;
   margin-bottom: 50px;
@@ -656,7 +640,7 @@ a {
   font-size: 30px;
   line-height: 34px;
   font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans';
   text-transform: uppercase;
 }
 .controllers__types {
@@ -682,7 +666,7 @@ a {
 .controllers__item p {
   padding: 30px 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans';
   font-size: 20px;
 }
 .controllers__item:hover {
@@ -728,7 +712,7 @@ a {
           box-shadow: 0px 4px 0px 0px #838383;
 }
 .some__text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans';
   font-size: 18px;
   padding: 0 70px;
   text-indent: 35px;

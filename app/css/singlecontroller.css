@@ -1,3 +1,4 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 * {
   margin: 0;
 }
@@ -162,7 +163,7 @@ nav ul {
 }
 .menu__line li span {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans';
   color: #fff;
 }
 .menu__line li:hover span {
@@ -178,6 +179,10 @@ a {
   text-decoration: none;
   color: currentColor;
 }
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 #contact__form {
   background: #2F3D48;
 }
@@ -186,7 +191,7 @@ a {
   text-align: center;
   padding-bottom: 40px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans';
   font-size: 25px;
 }
 .contact__item {
@@ -194,11 +199,6 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-}
-.contact__item i {
-  color: #fff;
-  font-size: 32px;
-  padding: 0 10px;
 }
 .contact__item h6 {
   color: #fff;
@@ -209,6 +209,14 @@ a {
   color: #fff;
   font-size: 14px;
   padding: 0;
+  font-family: 'Open Sans';
+}
+.contact__item__icon i {
+  color: #fff;
+  font-size: 32px;
+  padding: 0 10px;
+  width: 100%;
+  font-family: fontawesome !important;
 }
 .bg {
   background: #2F3D48 !important;
@@ -217,4 +225,16 @@ a {
   border: none;
   margin: 0;
   padding: 0;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito Sans Regular'), local('NunitoSans-Regular'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe0qMImSLYBIv1o4X1M8cce9I94.ttf) format('truetype');
 }

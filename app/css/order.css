@@ -3,9 +3,12 @@ html {
 }
 body {
   font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans";
   color: #2b3e51;
   background-color: #ffffff;
+}
+#contact__form {
+  padding: 40px 0;
 }
 .cd-form {
   width: 90%;
@@ -44,7 +47,7 @@ body {
 .cd-form textarea,
 .cd-form select,
 .cd-form label {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans";
   font-size: 1.6rem;
   color: #2b3e51;
 }

@@ -18,3 +18,15 @@ window.onload = ()=>{
     });
 
 }
+$('body').append('<div class="home__anchor"><i class="fas fa-angle-up"></i></div>');
+$('.home__anchor').click(()=>{
+    $('body, html').animate({scrollTop: 0}, 0);
+});
+$(window).scroll(()=>{
+    var scrolled = ($(window).scrollTop());
+    if(scrolled > 400){
+        $(".home__anchor").css("display","block");
+    } else {
+        $(".home__anchor").css("display","none");
+    }
+});
